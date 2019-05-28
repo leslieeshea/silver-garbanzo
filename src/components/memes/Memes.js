@@ -4,6 +4,7 @@ import Meme from './Meme';
 
 function Memes({ memes }) {
   const memesList = memes.map((meme, i) => {
+    console.log(meme);
     return (
       <li key={i}>
         <Meme url={meme.url} />
