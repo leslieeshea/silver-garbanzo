@@ -1,6 +1,6 @@
 import React from 'react';
-import CreateMeme from '../containers/CreateMeme';
-import AllMemes from '../containers/AllMemes';
+import CreateMeme from '../containers/memes/CreateMeme';
+import AllMemes from '../containers/memes/AllMemes';
 
 export default function Home() {
   return (
