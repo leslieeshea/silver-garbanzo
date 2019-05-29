@@ -1,0 +1,31 @@
+.Home {
+  li {
+    list-style-type: none;
+    margin-top: 30px;
+  }
+
+  img {
+    width: 500px;
+    border-radius: 80px;
+    box-shadow: 10px 10px coral;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+.MemePage {
+  img {
+    width: 500px;
+    border-radius: 80px;
+    box-shadow: 10px 10px coral;
+  }
+
+  form {
+    margin-top: 30px;
+  }
+}
