@@ -1,8 +1,9 @@
 import { connect } from 'react-redux';
 import Comments from '../../components/comments/Comments';
+import { getComments } from '../../selectors/commentsSelectors';
 
 const mapStateToProps = (state, { memeId }) => ({
-  memes: getComments(state, memeId)
+  comment: getComments(state, memeId)
 });
 
 export default connect(
