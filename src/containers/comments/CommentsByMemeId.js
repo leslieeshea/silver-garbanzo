@@ -3,7 +3,7 @@ import Comments from '../../components/comments/Comments';
 import { getComments } from '../../selectors/commentsSelectors';
 
 const mapStateToProps = (state, { memeId }) => ({
-  comment: getComments(state, memeId)
+  comments: getComments(state, memeId)
 });
 
 export default connect(

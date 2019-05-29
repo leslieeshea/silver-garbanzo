@@ -11,7 +11,7 @@ function MemeDetail({ meme }) {
 
 MemeDetail.propTypes = {
   meme: PropTypes.shape({
-    id: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired
   }).isRequired
 };
